@@ -1,5 +1,5 @@
-import { sleep } from "./helpers/util.js" ;
-import { SortingAlgorithms } from "./helpers/sortingAlgorithms.js" ;
+import { sleep } from "./util.js" ;
+import { SortingAlgorithms } from "./sortingAlgorithms.js" ;
 
 let nBars = 10
 let numbersBars = document.getElementById('numbersBars')
