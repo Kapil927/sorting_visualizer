@@ -288,5 +288,5 @@
     updateComplexityInfo();
 
 export {
-  SortingAlgorithms
+  index
 }
