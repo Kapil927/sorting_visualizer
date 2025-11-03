@@ -286,7 +286,3 @@
     // Initialize
     generateArray();
     updateComplexityInfo();
-
-export {
-  index
-}
