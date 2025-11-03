@@ -65,6 +65,42 @@
       color: #666;
     }
 
+    .tables-container {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+      justify-content: flex-end;
+    }
+
+    .table-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .developers-table {
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+
+    .developers-table td {
+      padding: 4px 8px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .developers-table td:first-child {
+      font-weight: 500;
+      background: #f5f5f5;
+    }
+
+    .table-header {
+      font-weight: 600;
+      color: #667eea;
+      margin-bottom: 6px;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
     .main-content {
       display: grid;
       grid-template-columns: 320px 1fr;
@@ -295,6 +331,11 @@
       .project-info {
         text-align: center;
       }
+
+      .tables-container {
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     @keyframes pulse {
@@ -316,13 +357,44 @@
         </div>
         <div class="header-info">
           <h1>🎨 Sorting Visualizer</h1>
-          <p>Interactive Algorithm Visualization Tool</p>
+           <p><strong>23CSH-204 - ADSA Mini Project</strong></p>
         </div>
       </div>
       <div class="project-info">
-        <p><strong>23CSH-204</strong></p>
-        <p>ADSA Mini Project</p>
-        <p>Under Guidance of Er. Neeraj Kumar (E16783)</p>
+        
+        <div class="tables-container">
+          <div class="table-section">
+            <p class="table-header">Developers</p>
+            <table class="developers-table">
+              <tr>
+                <td>Kapil Thakur</td>
+                <td>24BCS80042</td>
+              </tr>
+              <tr>
+                <td>Shubham</td>
+                <td>23BCS12179</td>
+              </tr>
+              <tr>
+                <td>Harshita Parya</td>
+                <td>23BCS13838</td>
+              </tr>
+              <tr>
+                <td>Pritam Manna</td>
+                <td>23BCS11205</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="table-section">
+            <p class="table-header">Under Guidance</p>
+            <table class="developers-table">
+              <tr>
+                <td>Er. Neeraj Kumar</td>
+                <td>E16783</td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
 
